@@ -1,0 +1,35 @@
+/* DiscoHub Forest Theme - Green & Nature */
+:root {
+    --forest-primary: #0a2e1a;
+    --forest-secondary: #051a0e;
+    --forest-accent: #2ecc71;
+    --forest-text: #b8e6b8;
+}
+
+.theme-dark {
+    --background-primary: var(--forest-primary) !important;
+    --background-secondary: var(--forest-secondary) !important;
+    --background-tertiary: #031207 !important;
+    --text-normal: var(--forest-text) !important;
+}
+
+/* Leaf pattern background */
+.app_b3f67a {
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path fill="%232ecc71" opacity="0.05" d="M50,20 Q60,30 55,40 Q50,50 45,40 Q40,30 50,20Z"/></svg>') !important;
+    background-repeat: repeat !important;
+}
+
+/* Channel hover effect */
+.name_d2b3d5:hover {
+    color: var(--forest-accent) !important;
+    text-shadow: 0 0 5px var(--forest-accent) !important;
+}
+
+/* Message border */
+.message_d5deea {
+    border-left: 2px solid transparent !important;
+}
+
+.message_d5deea:hover {
+    border-left-color: var(--forest-accent) !important;
+}

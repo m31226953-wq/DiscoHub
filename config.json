@@ -1,0 +1,21 @@
+{
+    "theme": "dark",
+    "accent": "#6c5ce7",
+    "backgroundImage": "assets/backgrounds/default.jpg",
+    "wallpaper": "assets/wallpapers/cyberpunk/neon-city.jpg",
+    "customFont": "",
+    "soundEnabled": true,
+    "autoInject": true,
+    "features": {
+        "customBackground": true,
+        "friendCounter": true,
+        "voiceVisualizer": true,
+        "animatedStatus": false,
+        "messageEffects": true,
+        "customScrollbar": true,
+        "avatarBorder": true
+    },
+    "animationSpeed": 0.3,
+    "blurAmount": 0,
+    "opacity": 85
+}

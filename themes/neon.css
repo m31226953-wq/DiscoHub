@@ -1,0 +1,18 @@
+/* DiscoHub Neon Theme */
+:root {
+    --dh-neon: #ff2a6d;
+    --dh-neon-second: #05d9e8;
+}
+
+.theme-dark {
+    background: #0b0b1a !important;
+}
+
+.sidebar_ded4b5 {
+    border-right: 2px solid var(--dh-neon) !important;
+}
+
+.username_dd8b55 {
+    color: var(--dh-neon) !important;
+    text-shadow: 0 0 5px var(--dh-neon) !important;
+}

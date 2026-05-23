@@ -1,0 +1,38 @@
+/* DiscoHub Dark Theme with Assets support */
+:root {
+    --dh-primary: #1a1a2e;
+    --dh-secondary: #0f0f1a;
+    --dh-accent: #6c5ce7;
+}
+
+/* Custom background from assets */
+.theme-dark {
+    background: url('file:///%APPDATA%/DiscoHub/assets/backgrounds/dark-bg.jpg') center/cover fixed !important;
+}
+
+/* Custom font from assets */
+@font-face {
+    font-family: 'DiscoHubFont';
+    src: url('file:///%APPDATA%/DiscoHub/fonts/custom-font.ttf');
+}
+
+/* Apply custom font */
+.message_d5deea, .username_dd8b55 {
+    font-family: 'DiscoHubFont', 'Segoe UI', sans-serif !important;
+}
+
+/* Sidebar with custom wallpaper */
+.sidebar_ded4b5 {
+    background: url('file:///%APPDATA%/DiscoHub/assets/wallpapers/cyberpunk/neon-city.jpg') center/cover no-repeat !important;
+    position: relative;
+}
+
+.sidebar_ded4b5::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+}

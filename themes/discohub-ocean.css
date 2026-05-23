@@ -1,0 +1,49 @@
+/* DiscoHub Ocean Theme - Blue & Deep */
+:root {
+    --ocean-primary: #0a1628;
+    --ocean-secondary: #061020;
+    --ocean-accent: #3498db;
+    --ocean-wave: #1abc9c;
+}
+
+.theme-dark {
+    --background-primary: var(--ocean-primary) !important;
+    --background-secondary: var(--ocean-secondary) !important;
+}
+
+/* Wave animation on scrollbar */
+::-webkit-scrollbar-thumb {
+    background: var(--ocean-accent) !important;
+    animation: waveScroll 2s infinite !important;
+}
+
+@keyframes waveScroll {
+    0% { opacity: 0.7; }
+    50% { opacity: 1; background: var(--ocean-wave); }
+    100% { opacity: 0.7; }
+}
+
+/* Bubble effect on messages */
+.message_d5deea {
+    position: relative;
+    overflow: hidden;
+}
+
+.message_d5deea::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -20px;
+    width: 10px;
+    height: 10px;
+    background: var(--ocean-accent);
+    border-radius: 50%;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.message_d5deea:hover::before {
+    left: 100%;
+    opacity: 1;
+    transition: 0.5s;
+}
